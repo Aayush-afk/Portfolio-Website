@@ -20,7 +20,7 @@ background: transparent;
 body::before{
     content: "";
     position: fixed;
-    background: #040404 url("images/images.jfif") top right no-repeat;
+    background: #040404 url("Images/images.jfif") top right no-repeat;
     left: 0;
     background-size: cover;
     right: 0;
