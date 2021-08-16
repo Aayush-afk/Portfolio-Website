@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1600px;
+    margin-top: 65px;
+}
+
+body{
+
+font-family: "Open sans",sans-serif;
+background-color: black;
+color: white;
+position: relative;
+background: transparent;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    background: #040404 url("images/images.jfif") top right no-repeat;
+    left: 0;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (min-width: 1024px) {
+    body::before{
+        background-attachment: fixed;
+    }
+}
+
+.left{
+    font-size: 45px;
+    padding: 100px;
+    padding-left: 180px;
+    padding-top: 150px;
+}
+
+.right{
+    padding-top: 4%;
+}
+
+.color{
+    color: rgb(17, 238, 17);
+}
+
+.color2{
+    color: black;
+}
+
+.navbar-brand{
+    color: red !important;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.nav-link{
+    color: rgb(13, 241, 25) !important;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    color: rgb(208, 255, 0) !important;
+}
+
+.instagram{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.linkedin{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.github{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+
+}
+
+.facebook{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+
+}
+
+.whatsapp{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+
+}
+
+.email{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+
+}
+
+.phone{
+    font-size: 40px;
+    color: rgb(13, 241, 25);
+    line-height: 1;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+
+}
+
+a.btn{
+    width: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background: transparent;
+    border: 1px solid rgb(17, 238, 17);
+    color: rgb(17, 238, 17);
+}
+
+
+.about{
+    text-align: center;
+    color: rgb(17, 238, 17);
+    padding-top: 80px;  
+}
+
+.left1 img{
+    padding-left: 3%;
+    font-size: 25px;
+    width: 10px 5px;
+    margin-left: 20%;
+    border-radius: 20%;
+}
+
+.right1{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.education{
+    margin-top: 123px;
+    text-align: center;
+    color: rgb(17, 238, 17);
+}
+
+.space{
+    margin-left: 80px;
+}
+
+.skills{
+    text-align: center;
+    color: rgb(17, 238, 17);
+    margin-top: 75px;
+}
+
+.programming{
+    text-align: center;
+    color: rgb(17, 238, 17);
+    margin-top: 40px;
+}
+
+.left2{
+    display: flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.middle{
+    display: flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.right2{
+    display: flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.webtechnologies{
+    text-align: center;
+    color: rgb(17, 238, 17);
+    margin-top: 40px;
+}
+
+.left3{
+    display: flex;
+    margin-left: 150px;
+    width: 130px;
+    height: 130px;
+}
+
+.middle1{
+    display: flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.right3{
+    display: flex;
+    margin-left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.container2{
+    background-color: rgb(26, 25, 77);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(17, 238, 17);
+    height: 12vh;
+    padding-top: 20px;
+}
+
+.container3{
+    background-color: rgb(26, 25, 77);
+    text-align: center;
+    height: 12vh;
+    color: rgb(17, 238, 17);
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+.container4{
+    background-color: rgb(26, 25, 77);
+    text-align: center;
+    font-size: 15px;
+    color: rgb(17, 238, 17);
+    height: 8vh;
+    padding-top: 20px;
+}
+
+.right img{
+    max-width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width:992px){
+    .instagram{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .linkedin{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .github{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .facebook{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .whatsapp{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .email{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .phone{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .left{
+        padding-right: 5%;
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    .right img{
+        padding-left: 5%;
+    }
+
+    a.btn{
+        margin-right: 3%;
+    }
+
+    .left1 img{
+        margin-left: 2%;
+    }
+
+    .space{
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+
+    .left2{
+        margin-left: 23%;
+    }
+
+    .middle{
+        margin-left: 23%;
+    }
+
+    .right2{
+        margin-left: 23%;
+    }
+
+    .left3{
+        margin-left: 25%;
+    }
+
+    .middle1{
+        margin-left: 22%;
+        padding-top: 2%;
+    }
+
+    .right3{
+        margin-left: 23%;
+    }
+
+}
